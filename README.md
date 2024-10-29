@@ -17,11 +17,11 @@ It uses the gpiozero library for GPIO management and ROS 2 Humble for coordinati
 2. **Button**: Connect one terminal of the button to GPIO 27 and the other terminal to the ground.
 
 ## Installation
-1. **Clone the repository** into your ROS 2 workspace:
-   `cd ~/led_ws`
+1. **Clone the repository** into your home directory:
+   `cd ~`
    `git clone https://github.com/NinjaBallerina/led_ws.git`
 2. **Build the package** using colcon build:
-   `cd ~/led_ws`
+   `cd led_ws` 
    `colcon build`
 3. **Source the environment** to include the newly built package:
    `source install/setup.bash`
