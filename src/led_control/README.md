@@ -21,7 +21,7 @@ It uses the gpiozero library for GPIO management and ROS 2 Humble for coordinati
    `cd ~`
    `git clone https://github.com/NinjaBallerina/led_ws.git`
 2. **Build the package** using colcon build:
-   `cd led_ws` 
+   `cd ~/led_ws` 
    `colcon build`
 3. **Source the environment** to include the newly built package:
    `source install/setup.bash`
